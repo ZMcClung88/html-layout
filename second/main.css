@@ -1,0 +1,27 @@
+html {
+	background: black;
+}
+
+.wrapper {
+	height: 750px;
+	width: 850;
+	margin: 0 auto;
+}
+
+.column {
+	height: 800px;
+	width: 275px;
+	float: left;
+}
+
+#column1 {
+	background-color: red;
+}
+
+#column2 {
+	background-color: yellow;
+}
+
+#column3 {
+	background-color: green;
+}
