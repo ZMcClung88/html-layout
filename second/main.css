@@ -1,27 +1,38 @@
 html {
 	background: black;
+	width: 100%;
 }
 
 .wrapper {
-	height: 750px;
-	width: 850;
+	height: 1000px;
+	width: 1104px;
 	margin: 0 auto;
 }
 
 .column {
-	height: 800px;
-	width: 275px;
+	height: 1000px;
+	width: 350px;
 	float: left;
 }
 
 #column1 {
-	background-color: red;
+	background-color: #409FD4;
 }
 
 #column2 {
-	background-color: yellow;
+	background-color: #0AD6C4;
 }
 
 #column3 {
-	background-color: green;
+	background-color: #6EC476;
+}
+
+.img-placeholder {
+	height: 225px;
+	width: 350px;
+	background: red;
+	bottom: 0;
+	position: absolute;
+	margin-bottom: -208px;
+	text-align: center;
 }
